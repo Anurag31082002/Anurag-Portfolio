@@ -25,7 +25,7 @@
  
  To run this project locally, follow these steps:
  
-**  Clone the repository:**
+## Clone the repository:
 
   Added a step-by-step guide to clone the repo and run the app locally.
  
@@ -38,6 +38,6 @@
  http://localhost:3000
  
 
-  **Author Section**:
+ ## Author Section:
 The "Designed and developed with ❤️ by Anurag Dwivedi" note is included in the "Author" section.
  
