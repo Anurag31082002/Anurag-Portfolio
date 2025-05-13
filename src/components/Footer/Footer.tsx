@@ -1,8 +1,8 @@
 import { Container } from './styles'
-import reactIcon from '../../assets/react-icon.svg'
+// import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
-import whatsapp from '../../assets/whatsapp.svg'
+// import whatsapp from '../../assets/whatsapp.svg'
 import telegram from '../../assets/telegram.svg'
 import instagramIcon from '../../assets/instagram.svg'
 
@@ -13,13 +13,21 @@ export function Footer() {
         <span>www.vinayak</span>
         <span>singh.in</span>
       </a> */}
-      <div>
+      <div
+        style={{
+          textAlign: 'center',
+          fontFamily: 'Arial, sans-serif',
+          fontSize: '16px',
+          marginTop: '20px',
+        }}
+      >
         <p>
-          This Website was made with Anurag Dwivedi
-          <span>❤️</span>
+          This website was made with <strong>Anurag Dwivedi</strong>{' '}
+          <span style={{ color: 'red' }}>❤️</span>
+          {new Date().getFullYear()}  &copy;. All rights reserved.
         </p>
       </div>
-      
+
       <div className="social-media">
         <a
           href="https://www.linkedin.com/in/anurag-dwivedi-6b2a811a4/"
@@ -35,7 +43,7 @@ export function Footer() {
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
-        
+
         <a
           href="https://t.me/anurag6394"
           target="_blank"
